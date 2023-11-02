@@ -1,7 +1,7 @@
 const themes = {
     light: {
         background: "white",
-        text: "grey"
+        text: "turquoise"
     },
     dark: {
         background: "grey",

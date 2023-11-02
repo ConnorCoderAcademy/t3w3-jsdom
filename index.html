@@ -5,12 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
-    <script src="./themeControl.js"></script>
 </head>
 <body>
     <h1>Welcome!</h1>
     <p>Subheading</p>
+
+    <hr />
+
+    <h2>Real form</h2>
+    <form>
+        <label>New Item: </label>
+        <input type="text" id="real-name-input" />
+        <h6 id="real-texthint">Not sure what to write? Check IMBD!</h6>
+        <button id="real-formsubmit">Submit New Item</button>
+    </form>
     
     <h2>Favourite Media</h2>
     <ul>
@@ -21,6 +29,8 @@
     <button onclick="changeCSSTheme('light')">Change to light mode</button> -->
     <button onclick="toggleLightDark()">Toggle Light/Dark</button>
 
+    <script src="./script.js"></script>
+    <script src="./themeControl.js"></script>
     <script>
         exampleHello();
         createListOfMedia();
