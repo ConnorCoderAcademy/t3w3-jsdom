@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <script src="./themeControl.js"></script>
 </head>
 <body>
     <h1>Welcome!</h1>
@@ -16,9 +17,14 @@
     
     </ul>
 
+    <!-- <button onclick="changeCSSTheme('dark')">Change to dark mode</button>
+    <button onclick="changeCSSTheme('light')">Change to light mode</button> -->
+    <button onclick="toggleLightDark()">Toggle Light/Dark</button>
+
     <script>
         exampleHello();
         createListOfMedia();
+        changeCSSTheme("light");
     </script>
 </body>
 </html>
